@@ -1,0 +1,138 @@
+ * {
+     border: 1px solid red;
+ } 
+
+ body {
+
+     font-family: Helvetica, sans-serif;
+     font-size: 22px;
+     color: seashell;
+     background-color: black;
+     opacity: 0.9;
+ }
+
+ /*      NAV SECTION */
+ .nav {
+     background-color: red;
+     height: 69px;
+     border-bottom: 1px solid seashell;
+ }
+
+ .logo-img {
+     height: 50px;
+    width: 170px;
+ }
+
+ a {
+     margin-right: 10px;
+     text-decoration: underline;
+ }
+
+ .nav-links {
+     display: inline;
+     float: right;
+     justify-content: space-between;
+     margin: 10px 10px;
+     text-align: center;
+
+ }
+
+ /*      BIG BANNER SECTION */
+ .banner {
+     position: relative;
+     display: inline-block;
+     text-align: center;
+ }
+
+ .big-banner {
+     height: 700px;
+     width: 1200px;
+ }
+
+ .statement {
+     text-align: center;
+     margin: auto;
+     width: 1200px;
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background: black;
+ }
+
+ /*      TEA PRODUCTS SECTION */
+ .tea-classes {
+     width: 1200px;
+    border: 1px solid white;
+ }
+
+ .title-2 {
+     text-align: center;
+     margin: auto;
+     width: 1000px;
+ }
+
+ .products {
+     display: flex;
+     flex-wrap: wrap;
+     align-content: space-around;
+     justify-content: center;
+ }
+
+ img {
+     height: 200px;
+     width: 300px;
+     margin: 0px 10px;
+ }
+
+ .caption {
+     margin-top: 10px;
+     display: block;
+ }
+ /*      LOCATIONS SECTION */
+ .locations-container{
+    border: 1px solid rgb(168, 68, 147);
+    margin: auto;
+    max-width: 1200px;
+    max-height: 500px;
+ }
+  .locations-img{
+    height: 500px;
+    width: 1200px;
+ }
+.locations-title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:490px ;
+    max-width: 1200px;
+}
+.card-container{
+    display: inline-flex;
+    position: relative;
+    top:500px ;
+    left: 130px;
+}
+ .card{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 10px;
+    width: 300px;
+    background-color: black;
+ }
+
+ /*     FOOTER       */
+ footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .copy{
+    float: left;
+    margin-left: 20px;
+ }

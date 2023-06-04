@@ -1,0 +1,45 @@
+body{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+
+.wrapper {
+    background-color: lightcoral;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 100px;
+}
+
+.a {
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.b{
+    margin-bottom: 20px;
+}
+.c{
+    margin-bottom: 20px;
+}
+.d{
+    margin-bottom: 20px;
+}
+input{
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+}
+button{
+    padding: 5px 10px ;
+    background-color: lightblue;
+    border-radius: 10px;
+}

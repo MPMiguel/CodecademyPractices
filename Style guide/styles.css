@@ -1,0 +1,70 @@
+/* * {
+    border: 1px solid red;
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Dancing+Script&family=Pacifico&display=swap');
+
+
+/*      Color Palette       */
+.colors {
+    border: 1px solid salmon;
+    padding: 10px;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px 10px;
+    min-height: 100px;
+}
+
+.thristle {
+    background-color: #E3C0D3;
+}
+
+.old-lavender {
+    background-color: #776472;
+}
+
+.opal {
+    background-color: #98B6B1;
+}
+
+.powder-blue {
+    background-color: #B8DBD9;
+}
+
+/*      Fonts       */
+header h1{
+    font-size: 50px;
+}
+.fonts{
+    border: 1px solid salmon;
+    margin-top: 30px;
+}
+.font-name{
+    margin-right: 20px;
+   
+}
+.font-panel-1{
+    font-family: 'Caramel', cursive;
+    font-size: 30px;
+    display: flex;
+    margin: 0px 20px 0px 30px;
+}
+.font-panel-2{
+    font-family:'Dancing Script', cursive;;
+    font-size: 30px;
+    display: flex;
+    margin: 0px 30px 0px 30px;
+}
+.font-panel-3{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    margin: 0px 30px 0px 30px;
+}
+.text-styles{
+    border: 1px solid salmon;
+}

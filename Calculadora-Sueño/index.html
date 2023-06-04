@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function cambiar() {
+
+            var cajaExpectativa = document.getElementById('cajaExpectativa');
+            var cajaRealidad = document.getElementById('cajaRealidad');
+            var numExpectativa = Number.parseInt(cajaExpectativa.value);
+            var numRealidad = Number.parseInt(cajaRealidad.value);
+            
+            if (cajaExpectativa.value === '' || cajaRealidad.value === ''){
+                alert('Rellena los campos solicitados');
+                return;
+            }
+
+            var texto = document.getElementById('texto');
+            texto.textContent = 'teto';
+           
+            if (numRealidad === numExpectativa) {
+                texto.textContent = `La clavaste papa ! dormiste ${numRealidad} horas`;
+
+            } else if (numRealidad > numExpectativa) {
+                texto.textContent = `Eres una marmota dormiste ${numRealidad} horas`;
+            } else {
+                texto.textContent = `La noche es para dormir, solo dormiste  ${numRealidad} horas`;
+            };
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link>
+    <title>Sleep debt calculator</title>
+    </head>
+    
+    <body>
+    
+        <div class="wrapper">
+            <div class="box a">
+                <h1>Duermes lo suficiente desgraciado?</h1>
+            </div>
+            <div class="box b">Introduce tus expectativas de sueño y lo que realmente duermes:</div>
+            <div class="box b">Horas ideales de sueño <input id="cajaExpectativa" ></div>
+            <div class="box c">Horas dormidas  reales <input id="cajaRealidad"></div>
+            <div class="box d"><span id='texto'></span></div>
+            <div class="box e"><button onclick="cambiar()">Comprobar</button></div>
+    
+        </div>
+    
+    </body>
+    
+    </html>
